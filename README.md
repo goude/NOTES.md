@@ -3,4 +3,4 @@ Standard for NOTES.md files: keep your notes and annotations right next to what 
 
 A `NOTES.md` file is a text file in [Markdown](https://commonmark.org/help/) format.
 
-This repository has it's own [NOTES.md](/NOTES.md) file!
+This repository has its own [NOTES.md](/NOTES.md) file!

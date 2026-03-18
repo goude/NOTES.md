@@ -1,11 +1,14 @@
 # NOTES.md
-
 ![v0.1](https://img.shields.io/badge/version-0.1-orange)
 
-Standard for NOTES.md files: keep your notes and annotations right next to what you are working on, so you don't have to search or remember.
+Leave notes next to the thing you're taking notes about.
+```
+my-project/
+├── src/
+├── docker-compose.yml
+└── NOTES.md        ← "port 5432 is hardcoded in legacy.py, fix before prod"
+```
 
-A `NOTES.md` file is a text file in [Markdown](https://commonmark.org/help/) format.
+That's it. A `NOTES.md` is a plain [Markdown](https://commonmark.org/help/) text file — write whatever helps future-you: gotchas, decisions, half-finished thoughts. It lives in the directory it describes, so it's there when you need it.
 
-Write anything you like in the file, to help you remember things. Do try to mainly write about the things that are in the same directory as the `NOTES.md` file. This will help you remember to look at it later when you return to the directory.
-
-This repository has its own [NOTES.md](/NOTES.md) file!
+This repository has its own [NOTES.md](/NOTES.md).
